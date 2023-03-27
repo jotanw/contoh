@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="judul">belajar javascript</h1>
+    <p id="judul">
+        sedang belajar <em>javascript</em> <b>dari dunialikom</b>
+    </p>
+    <script>
+        var sebuahnode =document.getElementById("judul");
+
+        console.log(sebuahnode.nodeName);
+        console.log(sebuahnode.nodeType);
+        console.log(sebuahnode.childNodes);
+        console.log(sebuahnode.textContent);
+
+        sebuahnode.textContent = "membuat 2 artibut id";
+    </script>
+</body>
+</html>
